@@ -3,13 +3,13 @@ class Banana
 
 	def initialize(name)
 		@name = name
+		@colour = "yellow"
 	end
 
 	class << self
 
-		def my_attr_accessor(prop)
-			my_attr_reader(prop)
-			my_attr_writer(prop)
+		def my_attr_accessor(*props)
+			props.each { |prop| my_attr_reader(prop) ; my_attr_writer(prop) }
 		end
 
 		def my_attr_reader(prop)
@@ -21,6 +21,6 @@ class Banana
 		end
 	end
 
-	my_attr_accessor(:name)
+	my_attr_accessor(:name, :colour)
 
 end

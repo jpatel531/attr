@@ -17,4 +17,9 @@ describe "my attribute accessor" do
 	 	expect(banana.name).to eq "John"
 	 end
 
+	 it "can take more than argument" do 
+		expect(banana.colour).to eq "yellow"
+		banana.colour = "blue"
+		expect(banana.colour).to eq "blue"
+	end
 end
