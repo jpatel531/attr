@@ -21,6 +21,6 @@ class Banana
 		end
 	end
 
-	my_attr_accessor(:name, :colour)
+	my_attr_accessor :name, :colour
 
 end
