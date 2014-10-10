@@ -1,0 +1,20 @@
+[
+  {
+    "commit": "9cfafd0fe2ac4c6f2dc8aeb5105303f6c9012cbe",
+    "instruction": "Do this!",
+    "source": "lib/my_attr.rb",
+    "spec": "spec/my_attr_spec.rb"
+  },
+  {
+    "commit": "8fcc21284a4684f832f677201a3f55d35de7f466",
+    "instruction": "Now do this!",
+    "source": "lib/my_attr.rb",
+    "spec": "spec/my_attr_spec.rb"
+  },
+  {
+    "commit": "0a06ae9502799a99b1794e36b53aea52e685a109",
+    "instruction": "Then do that!",
+    "source": "lib/my_attr.rb",
+    "spec": "spec/my_attr_spec.rb"
+  }
+]
